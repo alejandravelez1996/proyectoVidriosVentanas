@@ -5,6 +5,7 @@
 .card-img{
     height: 450px;
     filter: brightness(60%);
+ 
 }
 
 .hijoc{
@@ -58,7 +59,7 @@ p{
 
 
 #grupo {
-    /* border: 1px solid black;*/
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
@@ -66,11 +67,13 @@ p{
     overflow: hidden;
     background-position: center center;
     position: relative;
+     margin-right: 50px;  
+      margin-left: 0;
+ 
 }
 
 
 #grupoa {
-    /* border: 1px solid black;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,7 +120,6 @@ p{
     width: 850px;
     height: 300px;
     margin: auto;
-   /* border: 1px solid black;*/
 }
 
 .hijob {
@@ -540,16 +542,39 @@ p{
   display: flex;
   align-items: center; /* Centra verticalmente */
   justify-content: space-between; /* Espacio entre texto e imagen */
-  gap: 30px; /* Espacio entre los elementos */
+  gap: 20px; 
 }
 
 .texto {
-  width: 50%; /* o el tamaño que prefieras */
+  width: 50%; 
   font-family: Arial;
 }
 
 .ima{
   height: 100px;
-  width: 200px; /* Ajusta el tamaño de la imagen */
-  border-radius: 10px; /* Opcional, solo para estilo */
+  width: 200px; 
+  border-radius: 10px; 
 }
+.img-personalizada {
+     width: 900px;         
+    
+}
+.card {
+    border: none;       
+}
+
+.contenedor-flex {
+    display: flex;             
+    align-items: center;        
+    gap: 30px;                  
+    justify-content: center; 
+    flex-wrap: wrap;           
+}
+
+.imagen-redonda {
+    width: 450px;
+    height: 300px;
+    border-radius: 20%;       
+    object-fit: cover;          
+}
+
