@@ -578,3 +578,63 @@ p{
     object-fit: cover;          
 }
 
+/* 🔍 Estilo para agrandar la barra de búsqueda */
+.navbar .form-control {
+  width: 580px; /* ancho mayor */
+  height: 45px; /* más alta */
+  font-size: 16px; /* texto más legible */
+  border-radius: 10px;
+}
+
+/* Botón de búsqueda */
+.navbar .btn-outline-success {
+  height: 45px;
+  font-size: 16px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+/* Estilo para los íconos */
+.navbar .fa-solid {
+  color: black !important; /* íconos negros */
+  font-size: 26px; /* íconos más grandes */
+  margin-left: 15px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Alineación del formulario */
+.navbar .d-flex {
+  align-items: center;
+  gap: 10px;
+}
+
+.botones-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.botonregis {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botonregis:hover {
+    background-color: #218838;
+}
+
+.botonregis.registrarse {
+    background-color: #007bff;
+}
+
+.botonregis.registrarse:hover {
+    background-color: #0069d9;
+}
+
+
